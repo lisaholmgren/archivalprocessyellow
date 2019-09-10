@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Days");
 @import url("https://fonts.googleapis.com/css?family=Amiri");
 @import url("https://fonts.googleapis.com/css?family=DM+Serif+Text");
+@import url("https://fonts.googleapis.com/css?family=Jomhuria");
 
 /*
 	Phantom by HTML5 UP
@@ -176,7 +177,7 @@ input, select, textarea {
 		font-size: 2.75em;
 		font-weight: 700;
 		line-height: 1.3;
-		margin: 0 0 1em 0;
+		margin: 0 1 1em 0;
 		letter-spacing: -0.035em;
 	}
 
@@ -188,7 +189,7 @@ input, select, textarea {
 
 			h1 {
 				font-size: 2em;
-				margin: 0 0 1em 0;
+				margin: 0 0 1em 1;
 			}
 
 		}
@@ -202,13 +203,14 @@ input, select, textarea {
 		}
 
 	h2, h3, h4, h5, h6 {
-			font-family: "Dm Serfif Text";
-			font-weight: bold 700;
+			font-family: "Dm Serif Text";
+			font-size: 2.75em;
+			font-weight: 700;
 			font style: italic;
 		line-height: 1.6;
 		margin: 0 0 3em 0;
-font transform: uppercase;
-		letter-spacing: 0.15em;
+
+		letter-spacing: 0.035em;
 	}
 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -224,12 +226,15 @@ font transform: uppercase;
 
 	h3 {
 	font family: "DM Serif Text";
-		font style: italic;
+		font-style: italic;
 		font-size: 1em;
 	}
 
 	h4 {
-		font-size: 0.8em;
+		font-family: "Jomhuria"
+		font-weight: 700;
+		font-style: italic;
+		font-size: 0.65em;
 	}
 
 	h5 {
@@ -2482,7 +2487,7 @@ font transform: uppercase;
 		text-align: center;
 		text-decoration: none;
 		text-overflow: ellipsis;
-		text-transform: uppercase;
+
 		white-space: nowrap;
 	}
 
@@ -2853,7 +2858,7 @@ font transform: uppercase;
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
 			text-decoration: none;
-			text-transform: uppercase;
+
 			display: inline-block;
 		}
 
@@ -2910,7 +2915,7 @@ font transform: uppercase;
 						font-size: 0.8em;
 						font-weight: 900;
 						letter-spacing: 0.35em;
-						text-transform: uppercase;
+
 					}
 
 					#header nav ul li a[href="#menu"] {
