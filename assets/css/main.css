@@ -238,7 +238,15 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		font style: italic;
+	line-height: 1.5;
+	margin: 0 0 3em 0;
+
+
+	letter-spacing: 0.025em;
 	}
 
 	h6 {
